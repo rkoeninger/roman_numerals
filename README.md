@@ -7,7 +7,7 @@ I had to do one of these in pseudo-code as an interview exercise and decided to 
 It has some limitations:
 
   * It only supports the characters `I`, `V`, `X`, `L`, `C`, `D` and `M`.
-  * Instances of [substractive notation][sub-not] only support a single prefix character.
+  * Instances of [subtractive notation][sub-not] only support a single prefix character.
   * However, subtractive pairs can contain any two characters so long as the first is less than the first. So `roman_value('IM') == 999`, which I don't think is typical.
 
 [rom-num]: //en.wikipedia.org/wiki/Roman_numerals
